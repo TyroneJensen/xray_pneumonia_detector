@@ -56,6 +56,12 @@ Uses the Chest X-Ray Images (Pneumonia) dataset from Kaggle:
 - Real-time inference
 - Balanced precision and recall
 
+## Hosted Application
+
+The application is now hosted on Hugging Face Spaces. You can access it using the following link:
+
+[https://huggingface.co/spaces/TyJensen/xray-pneumonia-detector](https://huggingface.co/spaces/TyJensen/xray-pneumonia-detector)
+
 ## License
 
 MIT License

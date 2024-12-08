@@ -125,6 +125,14 @@ Validation Metrics:
 - F1 Score: ~90%
 ```
 
+## Hosted Application
+
+The Chest X-Ray Pneumonia Detector is now available online. Access it at:
+
+[https://huggingface.co/spaces/TyJensen/xray-pneumonia-detector](https://huggingface.co/spaces/TyJensen/xray-pneumonia-detector)
+
+This deployment allows users to upload X-ray images and receive instant predictions on the likelihood of pneumonia.
+
 ## Future Improvements
 
 1. Model Enhancements
@@ -193,4 +201,3 @@ model.load_state_dict(torch.load('best_model.pth'))
 # Make prediction
 image = Image.open('example.jpg')
 prediction = predict(image)
-```
